@@ -12,9 +12,9 @@
  * Ee hocam 2 gün önceyse neden şimdi paylaşıyorsun? Elektiriklerim yoktu ve dün ki yoğunluk + Zeeka'yı biliyorsunuz. ([Exorde](https://github.com/ruesandora/ExordeLabs)'de 3 gün önce başlamıştı)
  * Biz daha önce test tokenleri alıp repolar oluşturmuştuk, o tokenler hala geçerli.
  * Floodu detaylı okumanızı rica ediyorum.
- * Gitopia için nerede sohbet edeceğiz? Sadece bu iki kanalda: [burada](https://t.me/GitopiaTurkish) ve [burada](discord.gg/ruescommunity)
- * Gitopia için nerede sohbet edeceğiz? Sadece bu iki kanalda: [burada](https://t.me/GitopiaTurkish) ve [burada](discord.gg/ruescommunity)
- * Gitopia için nerede sohbet edeceğiz? Sadece bu iki kanalda: [burada](https://t.me/GitopiaTurkish) ve [burada](discord.gg/ruescommunity) 
+ * Gitopia için nerede sohbet edeceğiz? Sadece bu iki kanalda: [burada](https://t.me/GitopiaTurkish) ve [burada](https://discord.gg/JUtJ6b9F)
+ * Gitopia için nerede sohbet edeceğiz? Sadece bu iki kanalda: [burada](https://t.me/GitopiaTurkish) ve [burada](https://discord.gg/JUtJ6b9F)
+ * Gitopia için nerede sohbet edeceğiz? Sadece bu iki kanalda: [burada](https://t.me/GitopiaTurkish) ve [burada](https://discord.gg/JUtJ6b9F) 
 
 <h1 align="center"> Hoş geldin sevgili dostum, hoş geldin.. </h1>
 

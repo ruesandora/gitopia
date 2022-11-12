@@ -12,9 +12,9 @@
  * Ee hocam 2 gün önceyse neden şimdi paylaşıyorsun? Elektiriklerim yoktu ve dün ki yoğunluk + Zeeka'yı biliyorsunuz. ([Exorde](https://github.com/ruesandora/ExordeLabs)'de 3 gün önce başlamıştı)
  * Biz daha önce test tokenleri alıp repolar oluşturmuştuk, o tokenler hala geçerli.
  * Floodu detaylı okumanızı rica ediyorum.
- * Gitopia için nerede sohbet edeceğiz? Sadece [burada](discord.gg/ruescommunity)
- * Gitopia için nerede sohbet edeceğiz? Sadece [burada](discord.gg/ruescommunity)
- * Gitopia için nerede sohbet edeceğiz? Sadece [burada](discord.gg/ruescommunity)
+ * Gitopia için nerede sohbet edeceğiz? Sadece bu iki kanalda: [burada](https://t.me/GitopiaTurkish) ve [burada](discord.gg/ruescommunity)
+ * Gitopia için nerede sohbet edeceğiz? Sadece bu iki kanalda: [burada](https://t.me/GitopiaTurkish) ve [burada](discord.gg/ruescommunity)
+ * Gitopia için nerede sohbet edeceğiz? Sadece bu iki kanalda: [burada](https://t.me/GitopiaTurkish) ve [burada](discord.gg/ruescommunity) 
 
 <h1 align="center"> Hoş geldin sevgili dostum, hoş geldin.. </h1>
 
@@ -177,9 +177,9 @@ EOF
  * journalctl'li olan son komutu girdiğinizde loglar akacaktır
  * ctrl + c ile logları durduğunuzda height kısmında bir sayı yazacaktır, örneğin: 205
  * Şu an güncel blok [explorerdan](https://gitopia.explorers.guru/) baktığımızda 201233
- * Buraya kadar eşleşmesini beklemeliyiz, burası uzun sürebilir.
+ * Buraya kadar eşleşmesini beklemeliyiz, burası uzun (belki bir kaç saat) sürebilir.
  * Az önce ctrl + c ile durdurduk, tekrar `sudo journalctl -u gitopiad -f -o cat` komutunu girerek bakabiliriz.
- * Ee.. hocam bu işlemi snapshot ve statesync ile hızlandıramaz mıyız? - Tonla hata veriyor, gerek yok 10dk fazla bekleriz.
+ * Ee.. hocam bu işlemi snapshot ve statesync ile hızlandıramaz mıyız? - Tonla hata veriyor, gerek yok bekleriz..
  
 
 ```
@@ -254,12 +254,39 @@ gitopiad tx staking create-validator \
   --chain-id gitopia-janus-testnet-2
 ```
 
+## Validatore stake etmek için:
+
+* Komutu düzenleyin
+* Validatör adresi (valoper adresi)
+* Cüzdan adresi
+* Validatör adresi nerede bulunur? Operator veya valoper yazar.
+
+![image](https://user-images.githubusercontent.com/101149671/201474759-5924472c-5740-47c3-b80f-c11b9bf9a22a.png)
+
+```
+gitopiad tx staking delegate <validatöradresi> 10000000utlore --from=RuesWalletAddress --chain-id=$GITOPIA_CHAIN_ID --gas=auto
+```
+
+# Faydalı komutlar:
 
 
+### Node'u silme
+```
+sudo systemctl stop gitopiad
+sudo systemctl disable gitopiad
+sudo rm /etc/systemd/system/gitopia* -rf
+sudo rm $(which gitopiad) -rf
+sudo rm $HOME/.gitopia* -rf
+sudo rm $HOME/gitopia -rf
+sed -i '/GITOPIA_/d' ~/.bash_profile
+```
 
+### Jailden çıkma:
+```
+gitopiad tx slashing unjail --from Cüzdanİsmi --chain-id $GCHAIN_ID
+```
 
-
-
+### Aklıma komut geldikçe güncellerim..
 
 
 

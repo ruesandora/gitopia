@@ -92,6 +92,7 @@ source $HOME/.bash_profile
 ```
 cd $HOME 
 rm -rf gitopia
+curl https://get.gitopia.com | bash
 git clone -b v1.2.0 gitopia://gitopia/gitopia
 cd gitopia 
 make install

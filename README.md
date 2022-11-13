@@ -265,7 +265,7 @@ gitopiad tx staking create-validator \
 ![image](https://user-images.githubusercontent.com/101149671/201474759-5924472c-5740-47c3-b80f-c11b9bf9a22a.png)
 
 ```
-gitopiad tx staking delegate <validatöradresi> 10000000utlore --from=RuesWalletAddress --chain-id=$GITOPIA_CHAIN_ID --gas=auto
+gitopiad tx staking delegate <validatöradresi> 10000000utlore --from=RuesWalletAddress --chain-id=gitopia-janus-testnet-2 --gas=auto
 ```
 
 # Faydalı komutlar:

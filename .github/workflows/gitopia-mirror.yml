@@ -17,5 +17,5 @@ jobs:
         uses: gitopia/gitopia-mirror-action@v0.5.0
         with:
           gitopiaWallet: "${{ secrets.GITOPIA_WALLET }}"
-          remoteUrl: "gitopia.com/Socratex/Gitopia---Janus-Testnet-2"
+          remoteUrl: "gitopia://Socratex/Gitopia---Janus-Testnet-2"
           force: false

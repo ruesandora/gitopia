@@ -1,12 +1,13 @@
 <h1 align="center">  Github Uzerindeki Bir Repoyu Gitopia Uzerine Aktarma  </h1>
 
+
 ![Fi0V8cBVUAETXeh](https://user-images.githubusercontent.com/108215275/211386256-ed4bb284-4f09-41ca-989f-39e3ab2685ab.jpg)
 
 # Oncelikle bu rehberdeki tum islemleri Gitopianin kendi rehberinden de yapabilirsiniz. Bastan sona [Gitopia Docs](https://docs.gitopia.com/)
 
 ### Arkadaslar daha once Gitopia uzerinde bir repo olusturmustuk ve bu repoya `git` ile dosya yuklemistik.
 ### Simdi yapacagimiz islem ise Githubdaki bir repoyu Gitopia uzerinde tasimak.
-### Eger yapmadıysanız once repo olusturmayi yapin (tavsiyem) [Link](https://gitopia.com/Socrates/Repo-Olusturma/tree/master/README.md)
+### Tavsiyem eger yapmadiysaniz once repo olusturmayi yapin [Link](https://gitopia.com/Socrates/Repo-Olusturma/tree/master/README.md)
 ### Daha once olusturdugunuz repo ile bir iliskisi olmayacak yeni bir repo uzerinden islemleri yapacagiz
 ### Neler gerekli:
 * Gitopiada kullandıgınız cuzdanın mnemonic
@@ -33,20 +34,19 @@
 ```
 git config --global --unset gitopia.key
 ```
-* Bu komutta dosya ismini degistirmeyi unutmayin (eger dosyayı root degil baska bir klasor icine attıysanız, komutta dosya yolunu degistirebilirsiniz)
+* Bu komutta dosya ismini degistirmeyi unutmayin (eger dosyayi root degil baska bir klasor icine attiysaniz, komutta dosya yolunu degistirebilirsiniz)
 ```
 export GITOPIA_WALLET=/root/<dosyaismi.json>
 ```
 
 
 ### Sunucuda yapilacak islemler bu kadardi, simdi tekrar gitopia websitesine donun ve yeni bir repo olusturun.
-### Daha onceki repo ile bir ilgisi yok yeni bir tane olusturun
 ### Daha onceki gibi acilan repo sayfasının en ustunde bir komut var bunu daha sonra kullanacagiz
 
 ![image](https://user-images.githubusercontent.com/108215275/211399446-22bd35ef-aaa7-46fc-8a1f-3c33c23e5877.png)
 
 ### Simdi github hesabiniza girip klonlamak istediginiz repoyu acin
-### Ust satirin en sonunda `Setings`tiklayin.
+### Ust satirin en sonunda `Settings`tiklayin.
 ![image](https://user-images.githubusercontent.com/108215275/211400092-f250f272-328f-4eb3-8af9-e960214a373c.png)
 ### Ardindan sol tarafta `Secrets` tikladiktan sonra altinda acilan `Actions` secenegine tiklayin.
 ![image](https://user-images.githubusercontent.com/108215275/211400563-9a6084da-5f66-4a28-ba65-cf5276b528ec.png)
@@ -69,7 +69,7 @@ export GITOPIA_WALLET=/root/<dosyaismi.json>
 ![image](https://user-images.githubusercontent.com/108215275/211404479-d3d34b5a-68b8-41b0-b9d2-9b6bba70a1dc.png)
 
 ### Kod kismina asagidakini komple kopyalayip yapistirin
-### Degistirmeniz gereken kisim `remote URL:` bunun karsisina " " isaretleri icinde gitopia sitesinden aldiginiz komutu yazin.
+### Degistirmeniz gereken kisim `remoteUrl:` bunun karsisina " " isaretleri icinde gitopia sitesinden aldiginiz komutu yazin.
 ```
 
 name: Mirror to Gitopia
